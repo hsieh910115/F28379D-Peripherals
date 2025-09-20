@@ -1,6 +1,6 @@
 # TI LAUNCHXL-F28379D Peripheral Applications
 
-This repository contains example applications developed for the TI LAUNCHXL-F28379D board, demonstrating the use of key peripherals including **Timer, ePWM, and ADC.**
+This repository contains example applications developed for the TI LAUNCHXL-F28379D board, demonstrating the use of key peripherals including **`Timer, ePWM, and ADC.`**
 Each application highlights how to configure and integrate these peripherals into practical embedded system scenarios.
 
 ## ⚙️ Hardware Setup
@@ -22,18 +22,18 @@ https://github.com/user-attachments/assets/1c48e1b9-1479-4134-a2be-74d0d86a2792
 ## ePWM Application – Frequency & Duty Cycle Control
 
 Button 1 cycles through different PWM frequencies:
-**5 kHz → 10 kHz → 20 kHz → repeat**
+**`5 kHz → 10 kHz → 20 kHz → repeat`**
 
 Button 2 cycles through different duty cycles:
-**20% → 50% → 80% → repeat**
+**`20% → 50% → 80% → repeat`**
 
 https://github.com/user-attachments/assets/0d836f4f-ffe4-4069-9010-1a05c7431ae2
 
 ## ADC Application – Potentiometer Calibration
 
-**currentADC**: raw ADC value from the potentiometer (before calibration).
+**`currentADC`**: raw ADC value from the potentiometer (before calibration).
 
-**mappedADC**: calibrated ADC value.
+**`mappedADC`**: calibrated ADC value.
 
 During calibration, the system records minimum, maximum, and midpoint values.
 
